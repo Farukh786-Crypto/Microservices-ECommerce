@@ -1,0 +1,638 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75F389F-36D7-4A61-8DC4-3C5D8156FDC1}|Services\\Basket\\Basket.API\\Basket.API.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\basket\\basket.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B75F389F-36D7-4A61-8DC4-3C5D8156FDC1}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75F389F-36D7-4A61-8DC4-3C5D8156FDC1}|Services\\Basket\\Basket.API\\Basket.API.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\basket\\basket.api\\basket.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B75F389F-36D7-4A61-8DC4-3C5D8156FDC1}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\basket.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A3AF27-306C-4FA9-BB3F-8C60AD7A7697}|Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\basket\\basket.infrastructure\\basket.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0A3AF27-306C-4FA9-BB3F-8C60AD7A7697}|Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj|solutionrelative:services\\basket\\basket.infrastructure\\basket.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365DB65C-092E-4A27-BA85-0F0C0B1B462B}|Services\\Basket\\Basket.Core\\Basket.Core.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\basket\\basket.core\\basket.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{365DB65C-092E-4A27-BA85-0F0C0B1B462B}|Services\\Basket\\Basket.Core\\Basket.Core.csproj|solutionrelative:services\\basket\\basket.core\\basket.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EB32E7-BD60-4252-8289-3274342E7A66}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\basket\\basket.application\\basket.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D5EB32E7-BD60-4252-8289-3274342E7A66}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\basket.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576B1B50-C388-4AB4-B89C-88B5644C11A0}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576B1B50-C388-4AB4-B89C-88B5644C11A0}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|solutionrelative:services\\catalog\\catalog.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|solutionrelative:services\\catalog\\catalog.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576B1B50-C388-4AB4-B89C-88B5644C11A0}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.core\\specs\\catalogspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576B1B50-C388-4AB4-B89C-88B5644C11A0}|Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj|solutionrelative:services\\catalog\\catalog.core\\specs\\catalogspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC406433-477D-45FB-BECF-AD58FCBAC333}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.api\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC406433-477D-45FB-BECF-AD58FCBAC333}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.infrastructure\\data\\seeddata\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|solutionrelative:services\\catalog\\catalog.infrastructure\\data\\seeddata\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.infrastructure\\data\\catalogcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|solutionrelative:services\\catalog\\catalog.infrastructure\\data\\catalogcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.infrastructure\\data\\catalogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|solutionrelative:services\\catalog\\catalog.infrastructure\\data\\catalogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.infrastructure\\data\\brandcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|solutionrelative:services\\catalog\\catalog.infrastructure\\data\\brandcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.infrastructure\\data\\seeddata\\brands.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|solutionrelative:services\\catalog\\catalog.infrastructure\\data\\seeddata\\brands.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.infrastructure\\data\\seeddata\\types.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|solutionrelative:services\\catalog\\catalog.infrastructure\\data\\seeddata\\types.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.infrastructure\\data\\typecontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CAFED7-90CE-4EC6-BB64-028E31FEC3BF}|Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj|solutionrelative:services\\catalog\\catalog.infrastructure\\data\\typecontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.application\\handlers\\getproductbybrandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\handlers\\getproductbybrandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40668CE0-2223-41DE-8DF9-B2D9950740B5}|Services\\Discount\\Discount.API\\Discount.API.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\discount\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40668CE0-2223-41DE-8DF9-B2D9950740B5}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3578B9D-266C-4C55-96CA-6A300C7C0BBA}|Thoeory{A3578B9D-266C-4C55-96CA-6A300C7C0BBA}|D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\ProjectUnderstanding.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A3578B9D-266C-4C55-96CA-6A300C7C0BBA}|Thoeory{A3578B9D-266C-4C55-96CA-6A300C7C0BBA}|solutionrelative:ProjectUnderstanding.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.application\\queries\\getproductbybrandquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\queries\\getproductbybrandquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.application\\handlers\\getalltypeshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\handlers\\getalltypeshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.application\\handlers\\getallproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\handlers\\getallproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.application\\handlers\\getallbrandshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\handlers\\getallbrandshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.application\\handlers\\getproductbynamequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\handlers\\getproductbynamequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\catalog\\catalog.application\\mappers\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9587E1AC-0B8D-46FC-8D07-3EF3B3D7B17B}|Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj|solutionrelative:services\\catalog\\catalog.application\\mappers\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531B7858-7405-4EA3-963A-EC2AC1E9113B}|Services\\Ordering\\Ordering.API\\Ordering.API.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\ordering\\ordering.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531B7858-7405-4EA3-963A-EC2AC1E9113B}|Services\\Ordering\\Ordering.API\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6F7CBB-7989-4A9F-B57C-C8A7FF14146B}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\ordering\\ordering.application\\handlers\\checkoutordercommandv2handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B6F7CBB-7989-4A9F-B57C-C8A7FF14146B}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\handlers\\checkoutordercommandv2handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6F7CBB-7989-4A9F-B57C-C8A7FF14146B}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\ordering\\ordering.application\\handlers\\checkoutordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B6F7CBB-7989-4A9F-B57C-C8A7FF14146B}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\handlers\\checkoutordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6F7CBB-7989-4A9F-B57C-C8A7FF14146B}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\ordering\\ordering.application\\commands\\checkoutordercommandv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B6F7CBB-7989-4A9F-B57C-C8A7FF14146B}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\commands\\checkoutordercommandv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6F7CBB-7989-4A9F-B57C-C8A7FF14146B}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\ordering\\ordering.application\\mappers\\ordermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B6F7CBB-7989-4A9F-B57C-C8A7FF14146B}|Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:services\\ordering\\ordering.application\\mappers\\ordermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531B7858-7405-4EA3-963A-EC2AC1E9113B}|Services\\Ordering\\Ordering.API\\Ordering.API.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\ordering\\ordering.api\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531B7858-7405-4EA3-963A-EC2AC1E9113B}|Services\\Ordering\\Ordering.API\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531B7858-7405-4EA3-963A-EC2AC1E9113B}|Services\\Ordering\\Ordering.API\\Ordering.API.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\ordering\\ordering.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531B7858-7405-4EA3-963A-EC2AC1E9113B}|Services\\Ordering\\Ordering.API\\Ordering.API.csproj|solutionrelative:services\\ordering\\ordering.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75F389F-36D7-4A61-8DC4-3C5D8156FDC1}|Services\\Basket\\Basket.API\\Basket.API.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\basket\\basket.api\\controllers\\v2\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B75F389F-36D7-4A61-8DC4-3C5D8156FDC1}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\controllers\\v2\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EB32E7-BD60-4252-8289-3274342E7A66}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|d:\\development(imp)\\current\\impimp\\udemy course code\\microservices\\ecommerce\\services\\basket\\basket.application\\handlers\\createshoppingcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EB32E7-BD60-4252-8289-3274342E7A66}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\handlers\\createshoppingcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAANgTAAAAAAAAAAAjwOQTAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-18T09:21:08.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Basket.API.csproj",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Basket.API.csproj",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+              "RelativeToolTip": "Services\\Basket\\Basket.API\\Basket.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-18T06:32:05.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Program.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.API\\Program.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.API\\Program.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T10:50:08.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-29T12:31:33.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-29T12:32:24.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Basket.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
+              "RelativeToolTip": "Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-18T06:37:01.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Basket.Application.csproj",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.Application\\Basket.Application.csproj",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Basket.Application.csproj",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.Application\\Basket.Application.csproj",
+              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Basket.Application.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-18T06:34:13.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Basket.Core.csproj",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+              "RelativeToolTip": "Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-18T06:36:56.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CatalogSpecParams.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Core\\Specs\\CatalogSpecParams.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Core\\Specs\\CatalogSpecParams.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Core\\Specs\\CatalogSpecParams.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Core\\Specs\\CatalogSpecParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T07:09:45.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAnwCkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:25:51.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-09T10:03:21.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Core\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Core\\Entities\\Product.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Core\\Entities\\Product.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Core\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:24:20.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CatalogController.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDAAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:25:52.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CatalogContext.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\CatalogContext.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrastructure\\Data\\CatalogContext.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\CatalogContext.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrastructure\\Data\\CatalogContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:25:52.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TypeContextSeed.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\TypeContextSeed.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrastructure\\Data\\TypeContextSeed.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\TypeContextSeed.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrastructure\\Data\\TypeContextSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:25:42.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "products.json",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\products.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\products.json",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\products.json",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\products.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-10T12:25:50.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "types.json",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\types.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\types.json",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\types.json",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\types.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-10T13:39:44.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "brands.json",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\brands.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\brands.json",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\brands.json",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrastructure\\Data\\SeedData\\brands.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-10T13:39:48.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BrandContextSeed.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\BrandContextSeed.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrastructure\\Data\\BrandContextSeed.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\BrandContextSeed.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrastructure\\Data\\BrandContextSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T13:40:28.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CatalogContextSeed.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\CatalogContextSeed.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Infrastructure\\Data\\CatalogContextSeed.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Infrastructure\\Data\\CatalogContextSeed.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Infrastructure\\Data\\CatalogContextSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T13:40:33.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Discount\\Discount.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Program.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Discount\\Discount.API\\Program.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T05:49:57.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProjectUnderstanding.txt",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\ProjectUnderstanding.txt",
+              "RelativeDocumentMoniker": "ProjectUnderstanding.txt",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\ProjectUnderstanding.txt",
+              "RelativeToolTip": "ProjectUnderstanding.txt",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-19T13:18:18.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetAllTypesHandler.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Handlers\\GetAllTypesHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Handlers\\GetAllTypesHandler.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Handlers\\GetAllTypesHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Handlers\\GetAllTypesHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:41:46.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetProductByBrandHandler.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Handlers\\GetProductByBrandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Handlers\\GetProductByBrandHandler.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Handlers\\GetProductByBrandHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Handlers\\GetProductByBrandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:25:51.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetProductByBrandQuery.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Queries\\GetProductByBrandQuery.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Queries\\GetProductByBrandQuery.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Queries\\GetProductByBrandQuery.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Queries\\GetProductByBrandQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:39:35.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetAllProductsHandler.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Handlers\\GetAllProductsHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Handlers\\GetAllProductsHandler.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Handlers\\GetAllProductsHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Handlers\\GetAllProductsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:41:44.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetAllBrandsHandler.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Handlers\\GetAllBrandsHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Handlers\\GetAllBrandsHandler.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Handlers\\GetAllBrandsHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Handlers\\GetAllBrandsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:41:41.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetProductByNameQueryHandler.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Handlers\\GetProductByNameQueryHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Handlers\\GetProductByNameQueryHandler.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Handlers\\GetProductByNameQueryHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Handlers\\GetProductByNameQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:41:13.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductMappingProfile.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Mappers\\ProductMappingProfile.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.Application\\Mappers\\ProductMappingProfile.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Catalog\\Catalog.Application\\Mappers\\ProductMappingProfile.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.Application\\Mappers\\ProductMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:25:52.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CheckoutOrderCommandV2Handler.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.Application\\Handlers\\CheckoutOrderCommandV2Handler.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Handlers\\CheckoutOrderCommandV2Handler.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.Application\\Handlers\\CheckoutOrderCommandV2Handler.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Handlers\\CheckoutOrderCommandV2Handler.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T11:09:24.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.API\\Program.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.API\\Program.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.API\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T10:50:44.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CheckoutOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.Application\\Handlers\\CheckoutOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Handlers\\CheckoutOrderCommandHandler.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.Application\\Handlers\\CheckoutOrderCommandHandler.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Handlers\\CheckoutOrderCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T11:08:52.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CheckoutOrderCommandV2.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.Application\\Commands\\CheckoutOrderCommandV2.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Commands\\CheckoutOrderCommandV2.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.Application\\Commands\\CheckoutOrderCommandV2.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Commands\\CheckoutOrderCommandV2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T11:08:28.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderMappingProfile.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.Application\\Mappers\\OrderMappingProfile.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Application\\Mappers\\OrderMappingProfile.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.Application\\Mappers\\OrderMappingProfile.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Application\\Mappers\\OrderMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T11:07:00.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.API\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.API\\Controllers\\ApiController.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.API\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.API\\Controllers\\ApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T11:04:42.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.API\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Ordering\\Ordering.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.API\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T11:04:34.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.API\\Controllers\\V2\\BasketController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T11:04:05.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateShoppingCartCommandHandler.cs",
+              "DocumentMoniker": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.Application\\Handlers\\CreateShoppingCartCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Handlers\\CreateShoppingCartCommandHandler.cs",
+              "ToolTip": "D:\\Development(imp)\\CURRENT\\IMPIMP\\Udemy course code\\Microservices\\ECommerce\\Services\\Basket\\Basket.Application\\Handlers\\CreateShoppingCartCommandHandler.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Handlers\\CreateShoppingCartCommandHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:51:56.31Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

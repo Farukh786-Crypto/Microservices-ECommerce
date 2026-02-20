@@ -1,0 +1,266 @@
+﻿sectin 9 is incomplete
+
+docker-compose up --build -d
+docker-compose down
+docker compose build --no-cache
+docker ps -a
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+docker compose logs discountdb
+------------------------------------
+for migration
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering>dotnet ef migrations add InitialCreate -p Ordering.Infrastructure -s Ordering.API -c OrderContext
+
+------------------------------------
+farukh44921
+
+---------------
+
+http://localhost:9090/#!/init/admin
+portainer
+username : admin
+password :Sumasoft@12345
+---------------------------------------------------------------------------
+CQRS = Command Query Responsibility Segregation
+
+Meaning:
+
+Commands = change data (Create, Update, Delete)
+
+Queries = read data (Get something)
+
+We keep them separate because:
+
+Command logic is complex (validation, domain rules, saving)
+
+Query logic is optimized for fast reading
+
+📌 So CQRS segregates read and write responsibilities.
+
+
+MediatR helps us send commands or queries to the correct handler without knowing who handles it.
+------------------------------------------------------------------------------------------------
+In your architecture:
+API
+ ↓
+Controller
+ ↓
+MediatR Pipeline
+ ↓
+FluentValidation  ✅
+ ↓
+Command Handler
+ ↓
+Database / EventBus
+
+
+💡 Validation runs BEFORE the command handler.
+
+If validation fails:
+
+Handler is never executed
+
+No DB changes
+
+No event published
+-------------------------------------------------------------------------
+Why Event is REQUIRED in Microservices
+Golden Rule:
+
+Services must not know who consumes their data
+
+Basket service:
+
+Does NOT care about:
+
+Ordering
+
+Payment
+
+Inventory
+
+It only says:
+👉 “Checkout happened”
+-------------------------------------------------------------------------
+Full End-to-End Scenario (REAL WORLD)
+🛒 Step 1: User clicks “Checkout”
+
+Frontend:
+
+POST /api/basket/checkout
+
+🧺 Step 2: Basket.API
+await _publishEndpoint.Publish(eventMsg);
+
+
+What Basket service does:
+✔ Calculates price
+✔ Publishes event
+✔ Deletes basket
+✔ Returns 202 Accepted
+
+💡 Basket service is DONE.
+
+🐰 Step 3: RabbitMQ (Message Broker)
+
+RabbitMQ:
+
+Stores message
+
+Guarantees delivery
+
+Decouples services
+
+BasketCheckoutEventV2
+
+📦 Step 4: Ordering.API consumes event
+public class BasketOrderingConsumerV2 
+    : IConsumer<BasketCheckoutEventV2>
+
+
+📌 Ordering reacts to event
+📌 No direct call from Basket
+
+🧠 Step 5: Event → Command
+var cmd = _mapper.Map<CheckoutOrderCommandV2>(context.Message);
+await _mediator.Send(cmd);
+
+
+Why command?
+
+Internal business logic
+
+Validation
+
+DB access
+
+🧾 Step 6: Order created
+
+Order saved in DB
+
+Payment process can start
+
+Email service can listen too (future)
+
+Why Event Versioning (V2)?
+
+Your:
+
+BasketCheckoutEventV2
+
+Why?
+
+Contract change
+
+Add/remove fields
+
+Backward compatibility
+
+Old consumers → V1
+New consumers → V2
+
+8️⃣ Event vs Command (CRITICAL DIFFERENCE)
+Event	Command
+Something happened	Do something
+Past tense	Imperative
+Broadcast	Single handler
+Async	Can be sync
+Integration	Internal
+
+✔ Your design respects this perfectly.
+
+9️⃣ Why Nullable in Event?
+public string? UserName { get; set; }
+
+
+Because:
+
+External contract
+
+Defensive programming
+
+Validation happens later
+
+🔟 Why this is PROFESSIONAL architecture
+
+You are using:
+✔ Clean Architecture
+✔ CQRS
+✔ Event-Driven Microservices
+✔ Async Messaging
+✔ Versioned Contracts
+
+This is exactly how enterprise systems are built.
+
+-----------------------------------------------------------------------
+section 1 to section 9  - API
+section 28 onwards Angular
+
+
+tax simulator =
+taxsable income + 21,600 = total
+total/12
+then minus 4000
+
+-----------------------------
+
+D:\Development(imp)\CURRENT\github(latest)
+
+----------------------------------------------------------------------------------------------------------------------
+http://localhost:8001/swagger/index.html
+Adidas Quick Force Indoor Badminton Shoes
+
+
+-----------------------------
+
+
+
+Basket → BasketCheckoutEvent
+              ↓
+        RabbitMQ Queue
+              ↓
+        Ordering Service
+		
+		
+RabbitMQ is low-level.
+
+MassTransit is a .NET abstraction over RabbitMQ.
+
+MassTransit gives you:
+
+✔ Automatic queue creation
+✔ Retries
+✔ Dead-letter queues
+✔ Serialization
+✔ Dependency injection
+✔ Consumer lifecycle
+
+Think of it as:
+
+“ASP.NET Core for messaging”
+
+COMPLETE FLOW (READ SLOWLY)
+1. User clicks "Checkout"
+2. Basket Service publishes BasketCheckoutEventV2
+3. RabbitMQ stores message
+4. Ordering Service consumer receives event
+5. Consumer maps Event → Command
+6. MediatR sends command
+7. Validation runs
+8. Handler saves Order
+9. Success → ACK to RabbitMQ
+
+
+
+--------------------------------------------
+If a basket is created using V1,
+V2 Checkout SHOULD be able to read the same basket
+because both use the same Redis storage.
+
+
+
+-----------------------------------------------------------------------------
+
+Article
+
+https://medium.com/net-core/in-memory-distributed-redis-caching-in-asp-net-core-62fb33925818?source=publication_content_feed----9864284e8ea3-----2-----------------------------------
+

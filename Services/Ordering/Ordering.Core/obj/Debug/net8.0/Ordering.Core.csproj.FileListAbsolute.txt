@@ -1,0 +1,22 @@
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\bin\Debug\net8.0\Ordering.Core.deps.json
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\bin\Debug\net8.0\Ordering.Core.dll
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\bin\Debug\net8.0\Ordering.Core.pdb
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.AssemblyInfoInputs.cache
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.AssemblyInfo.cs
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.csproj.CoreCompileInputs.cache
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.dll
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\refint\Ordering.Core.dll
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.pdb
+D:\Development(imp)\CURRENT\github(latest)\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\ref\Ordering.Core.dll
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\bin\Debug\net8.0\Ordering.Core.deps.json
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\bin\Debug\net8.0\Ordering.Core.dll
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\bin\Debug\net8.0\Ordering.Core.pdb
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.AssemblyInfoInputs.cache
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.AssemblyInfo.cs
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.csproj.CoreCompileInputs.cache
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.dll
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\refint\Ordering.Core.dll
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\Ordering.Core.pdb
+D:\Development(imp)\CURRENT\IMPIMP\Udemy course code\Microservices\ECommerce\Services\Ordering\Ordering.Core\obj\Debug\net8.0\ref\Ordering.Core.dll
